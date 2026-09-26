@@ -16,7 +16,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
            xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.Compose" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="Theme.Compose" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
         <item name="alertDialogTheme">@style/ContactsAlertDialogThemeAppCompat</item>
     </style>
 
@@ -58,12 +58,8 @@
         <item name="android:listSelector">?android:attr/listChoiceBackgroundIndicator</item>
     </style>
 
-    <style name="PeopleThemeAppCompat" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <style name="PeopleThemeAppCompat" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
         <!-- Styles that require AppCompat compatibility, remember to update both sets -->
-        <item name="android:actionBarStyle">@style/ContactsActionBarStyleAppCompat</item>
-        <item name="actionBarStyle">@style/ContactsActionBarStyleAppCompat</item>
-        <item name="android:actionButtonStyle">@style/ContactsActionButtonStyle</item>
-        <item name="actionButtonStyle">@style/ContactsActionButtonStyle</item>
         <!-- Style for the overflow button in the actionbar. -->
         <item name="android:actionOverflowButtonStyle">@style/ContactsActionBarOverflowQP</item>
         <item name="actionOverflowButtonStyle">@style/ContactsActionBarOverflowQP</item>
