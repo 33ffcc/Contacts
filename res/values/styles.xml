@@ -147,7 +147,7 @@
         <!-- Empty icon -->
         <item name="android:icon">@android:color/transparent</item>
     </style>
-
+test
     <style name="ContactsActionBarStyleAppCompat"
         parent="@style/Widget.AppCompat.ActionBar.Solid">
         <!-- Styles that require AppCompat compatibility, remember to update both sets -->
